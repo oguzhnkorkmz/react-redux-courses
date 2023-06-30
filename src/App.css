@@ -1,0 +1,53 @@
+.courseForm {
+  padding: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+.fieldGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.field {
+  margin-right: 20px;
+}
+
+.saveBtn {
+  margin-top: 30px;
+}
+
+.courses {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px !important;
+}
+
+.course {
+  margin-top: 10px;
+}
+
+.listHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listHeader h3.title {
+  margin-bottom: 0;
+}
+
+.listHeader .search {
+  display: flex;
+  align-items: center;
+}
+
+.listHeader .search .label {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.coursePrice {
+  margin: 20px;
+  text-align: right;
+  font-size: 1.5rem;
+}
